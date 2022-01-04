@@ -11,7 +11,8 @@ h1 {
 }
 .flexible-class{
   display: flex;
-  margin-bottom: 300px;
+  margin-top:0;
+  margin-bottom: 200px;
 }
 .button-class{
   text-decoration: none;
@@ -50,4 +51,41 @@ h2{
 }
 .developer-img-div{
   width: 50%;
+}
+.full-stack-class{
+  border: 0px solid #4d4b4b;
+  box-shadow:5px 5px 40px rgb(170, 166, 166);
+  padding: 10px 20px;
+  text-align: justify;
+  
+}
+#full-stack{
+  width: 50%;
+  height: 380px;
+  margin-left: 50px;
+  border-left: 6px solid;
+  border-image: linear-gradient(rgb(255, 102, 0),rgb(226, 147, 122));
+  border-image-slice: 5;
+
+
+}
+#baby{
+  width: 45%;
+  height: 380px;
+  margin-right: 50px;
+  margin-left:70px;
+  border-left: 6px solid;
+  border-image: linear-gradient(green,#50eb50);
+  border-image-slice: 1;
+}
+.experience-class{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 0;
+  margin: -8px;
+
+}
+#footer{
+  text-align: center;
 }
